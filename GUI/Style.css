@@ -10,3 +10,9 @@ body {
 	line-height: 1.4;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.navbar-inverse {
+background-color: #FFFFFF;
+border-color: rgba(127, 90, 5, 1);
+padding: 20px 0;
+}
