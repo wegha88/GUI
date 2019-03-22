@@ -11,8 +11,54 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.centered {
+	text-align: center;
+}
+
 .navbar-inverse {
 background-color: #FFFFFF;
 border-color: rgba(127, 90, 5, 1);
 padding: 20px 0;
+}
+
+.tb {
+display: table;
+width: 100%;
+}
+
+#headerwrap {
+	
+	margin-top: -20px;
+	padding-top: 120px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 850px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
+#headerwrap h1 {
+	color: #000000;
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#headerwrap p {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1px;
+	color:#000000;
 }
