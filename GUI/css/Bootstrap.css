@@ -7,8 +7,6 @@ body {
   margin: 0;
 }
 
-
-
 .nav {
   padding-left: 0;
   margin-bottom: 0;
@@ -64,7 +62,7 @@ body {
 }
 
 
- .navbar-nav > li {
+.navbar-nav > li {
    float: left;
  }
  
@@ -122,3 +120,4 @@ body {
 .text-center {
   text-align: center;
 }
+

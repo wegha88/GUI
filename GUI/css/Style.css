@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 }
+
 body { 
 	font-weight: 300;
 	font-size: 16px;
@@ -9,6 +10,16 @@ body {
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.4;
 	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #4abcc5;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 .centered {
@@ -24,11 +35,6 @@ padding: 20px 0;
 .row {
 	margin-right: 0px;
 	margin-left: -15px;
-}
-
-.tb {
-display: table;
-width: 100%;
 }
 
 #headerwrap {
@@ -66,4 +72,16 @@ width: 100%;
 	text-align: center;
 	letter-spacing: 1px;
 	color:#000000;
+}
+
+#location {
+	background: #FFFFFF;
+	padding: 200px;
+	text-align: center;
+}
+
+#latency {
+	background: ;
+	padding: 200px 0;
+	text-align: center;
 }
