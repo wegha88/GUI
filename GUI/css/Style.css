@@ -32,11 +32,6 @@ border-color: rgba(127, 90, 5, 1);
 padding: 20px 0;
 }
 
-.row {
-	margin-right: 0px;
-	margin-left: -15px;
-}
-
 #headerwrap {
 	
 	margin-top: -20px;
@@ -75,11 +70,17 @@ padding: 20px 0;
 }
 
 #location {
-	background-color: #000000;
+	background: url(../img/business-location-youth-village.jpg) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 50px 0px;
+	color: #ffffff;
 }
 
 #latency {
-	background-color: #4abcc5;
-	padding-top: 100px;
-	padding-bottom: 200px;
+	background: url(../img/latency.jpg) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding: 50px 0px;
+	color: #FFFFFF;
 }
