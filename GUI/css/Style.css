@@ -75,13 +75,11 @@ padding: 20px 0;
 }
 
 #location {
-	background: #FFFFFF;
-	padding: 200px;
-	text-align: center;
+	background-color: #000000;
 }
 
 #latency {
-	background: ;
-	padding: 200px 0;
-	text-align: center;
+	background-color: #4abcc5;
+	padding-top: 100px;
+	padding-bottom: 200px;
 }
