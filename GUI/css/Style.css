@@ -20,16 +20,48 @@ a {
 	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
+	text-decoration: none;
+}
+
+.block1:hover {
+	background-color: white;
+}
+
+.block2:hover {
+	background-color: white;
+}
+
+.block3:hover {
+	background-color: white;
+}
+
+.block4:hover {
+	background-color: white;
+}
+
+.block5:hover {
+	background-color: white;
+}
+
+.block6:hover {
+	background-color: white;
+}
+
+.block7:hover {
+	background-color: white;
 }
 
 .centered {
 	text-align: center;
 }
 
+.nav {
+	padding: 16px 32px;	
+}
+
 .navbar-inverse {
-background-color: #FFFFFF;
-border-color: rgba(127, 90, 5, 1);
-padding: 20px 0;
+background-color: aqua;
+padding: 25px 0px;
 }
 
 #headerwrap {
@@ -84,3 +116,4 @@ padding: 20px 0;
 	padding: 50px 0px;
 	color: #FFFFFF;
 }
+
