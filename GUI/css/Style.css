@@ -101,6 +101,30 @@ padding: 25px 0px;
 	color:#000000;
 }
 
+#temperature {
+    background: url(../img/temp.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+	padding: 50px 0px;
+	color: #ffffff;
+}
+
+#humidity {
+    background: url(../img/humidity.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+	padding: 50px 0px;
+	color: #ffffff;
+}
+
+#air_quality {
+    background: url(../img/airqual.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+	padding: 50px 0px;
+	color: #ffffff;
+}
+
 #location {
 	background: url(../img/business-location-youth-village.jpg) no-repeat;
 	background-size: 100%;
