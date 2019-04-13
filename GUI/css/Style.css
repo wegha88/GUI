@@ -2,6 +2,10 @@ html, body {
 	height: 100%;
 }
 
+h1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body { 
 	font-weight: 300;
 	font-size: 16px;
@@ -60,19 +64,20 @@ a {
 }
 
 .navbar-inverse {
-background-color: aqua;
+background: url(../img/white.jpg) no-repeat;
+background-size: 100%;
 padding: 25px 0px;
 }
 
 #headerwrap {
 	
 	margin-top: -20px;
-	padding-top: 120px;
+	padding-top: 40px;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 850px;
-	width: 100%;
+	width: 100%;	
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
@@ -84,7 +89,7 @@ padding: 25px 0px;
 	padding-bottom: 100px;
 }
 
-#headerwrap h1 {
+#headerwrap h2 {
 	color: #000000;
 	font-size: 50px;
 	font-weight: 400;
@@ -119,6 +124,14 @@ padding: 25px 0px;
 
 #air_quality {
     background: url(../img/airqual.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+	padding: 50px 0px;
+	color: #ffffff;
+}
+
+#connected_device {
+    background: url(../img/connected_device.jpg) no-repeat;
     background-size: 100%;
     background-position: center;
 	padding: 50px 0px;
