@@ -69,6 +69,16 @@ background-size: 100%;
 padding: 25px 0px;
 }
 
+.position {
+	position: absolute;
+	top: 100px;
+}
+
+.position1 {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
 #headerwrap {
 	
 	margin-top: -20px;
@@ -110,23 +120,25 @@ padding: 25px 0px;
     background: url(../img/temp.jpg) no-repeat;
     background-size: 100%;
     background-position: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	color: #ffffff;
 }
 
-#humidity {
-    background: url(../img/humidity.jpg) no-repeat;
+#environment {
+	background: url(../img/humidity.jpg) no-repeat;
+	height: 100%;
     background-size: 100%;
     background-position: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	color: #ffffff;
 }
 
 #air_quality {
-    background: url(../img/airqual.jpg) no-repeat;
+	background: url(../img/airqual.jpg) no-repeat;
+	height: 100%;
     background-size: 100%;
     background-position: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	color: #ffffff;
 }
 
@@ -134,7 +146,7 @@ padding: 25px 0px;
     background: url(../img/connected_device.jpg) no-repeat;
     background-size: 100%;
     background-position: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	color: #ffffff;
 }
 
@@ -142,15 +154,16 @@ padding: 25px 0px;
 	background: url(../img/business-location-youth-village.jpg) no-repeat;
 	background-size: 100%;
 	background-position: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	color: #ffffff;
 }
 
 #latency {
 	background: url(../img/latency.jpg) no-repeat;
+	height: 100%;
 	background-size: 100%;
 	background-position: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	color: #FFFFFF;
 }
 
