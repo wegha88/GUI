@@ -69,9 +69,15 @@ background-size: 100%;
 padding: 25px 0px;
 }
 
-.position {
-	position: absolute;
-	top: 100px;
+
+
+.absolute a{
+	position: relative;
+	font-size: 12px;
+	padding:-10px;
+	text-align:;
+	bottom: 0px;
+	color: #555;
 }
 
 .position1 {
@@ -81,6 +87,7 @@ padding: 25px 0px;
 
 #headerwrap {
 	
+	background: url(/img/whitebg.jpg) no-repeat;
 	margin-top: -20px;
 	padding-top: 40px;
 	text-align: center;
@@ -100,6 +107,7 @@ padding: 25px 0px;
 }
 
 #headerwrap h2 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	color: #000000;
 	font-size: 50px;
 	font-weight: 400;
