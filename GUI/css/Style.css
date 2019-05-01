@@ -75,7 +75,6 @@ padding: 25px 0px;
 	position: relative;
 	font-size: 12px;
 	padding:-10px;
-	text-align:;
 	bottom: 0px;
 	color: #555;
 }
@@ -151,7 +150,8 @@ padding: 25px 0px;
 }
 
 #connected_device {
-    background: url(../img/connected_device.jpg) no-repeat;
+	background: url(../img/connected_device.jpg) no-repeat;
+	height: 100%;
     background-size: 100%;
     background-position: center;
 	padding: 10px 0px;
